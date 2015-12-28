@@ -1,5 +1,6 @@
 body {
 	font-family: Karla;
+	background-color: #F8F9FA;
 }
 
 .bigger-box {
@@ -30,10 +31,14 @@ body {
 	text-align: center;
 }
 
+button {
+	margin-top: 50px;
+}
+
 .line {
 	height: 1px;
 	background-color: black;
-	margin: 100px auto;
+	margin: -50px auto;
 	margin-bottom: -250px;
 	width: 800px;
 }
@@ -48,6 +53,6 @@ body {
 }
 
 .heading {
-	color: #bbb;
+	color: #606668;
 	margin-bottom: -15px;
 }
