@@ -1,0 +1,53 @@
+body {
+	font-family: Karla;
+}
+
+.bigger-box {
+	width: 800px;
+	margin: 150px auto;
+}
+
+.left-box {
+	width: 250px;
+	text-align: center;
+	float: left;
+}
+
+.self-photo {
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+}
+
+.logo {
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	margin-left: 10px;
+}
+
+.right-box {
+	text-align: center;
+}
+
+.line {
+	height: 1px;
+	background-color: black;
+	margin: 100px auto;
+	margin-bottom: -250px;
+	width: 800px;
+}
+
+.information {
+	display: none; 
+	margin: 300px;
+	margin-bottom: -300px;
+	/*background-color: #F1F9FF; */
+	border-radius: 5px;
+	padding-left: 10px;
+}
+
+.heading {
+	color: #bbb;
+	margin-bottom: -15px;
+}
