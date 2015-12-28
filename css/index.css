@@ -4,27 +4,28 @@ body {
 }
 
 .bigger-box {
-	width: 800px;
-	margin: 150px auto;
+	width: 50em;
+	margin: 9.375em auto;
+	position: relative;
 }
 
 .left-box {
-	width: 250px;
+	width: 15.625em;
 	text-align: center;
 	float: left;
 }
 
 .self-photo {
 	border-radius: 50%;
-	height: 150px;
-	width: 150px;
+	height: 9.375em;
+	width: 9.375em;
 }
 
 .logo {
 	border-radius: 50%;
-	height: 50px;
-	width: 50px;
-	margin-left: 10px;
+	height: 3.125em;
+	width: 3.125em;
+	margin-left: 0.625em;
 }
 
 .right-box {
@@ -32,27 +33,26 @@ body {
 }
 
 button {
-	margin-top: 50px;
+	margin-top: 3.125em;
 }
 
 .line {
 	height: 1px;
 	background-color: black;
-	margin: -50px auto;
-	margin-bottom: -250px;
-	width: 800px;
+	margin: 13% auto;
+	margin-bottom: -55%;
+	width: 50em;
 }
 
 .information {
 	display: none; 
-	margin: 300px;
-	margin-bottom: -300px;
-	/*background-color: #F1F9FF; */
-	border-radius: 5px;
-	padding-left: 10px;
+	margin-top: 60%;
+	border-radius: 0.3125em;
+	padding-left: 0.625em;
+	float: bottom;
 }
 
 .heading {
 	color: #606668;
-	margin-bottom: -15px;
+	margin-bottom: -0.9375em;
 }
