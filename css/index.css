@@ -23,8 +23,8 @@ body {
 
 .logo {
 	border-radius: 50%;
-	height: 3.125em;
-	width: 3.125em;
+	height: 1.55em;
+	width: 1.55em;
 	margin-left: 0.625em;
 }
 
@@ -39,14 +39,14 @@ button {
 .line {
 	height: 1px;
 	background-color: black;
-	margin: 13% auto;
+	margin: 12% auto;
 	margin-bottom: -55%;
 	width: 50em;
 }
 
 .information {
 	display: none; 
-	margin-top: 60%;
+	margin-top: 57%;
 	border-radius: 0.3125em;
 	padding-left: 0.625em;
 	float: bottom;
