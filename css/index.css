@@ -1,8 +1,10 @@
 body {
-	font-family: Karla;
+	font-family: Helvetica;
 	background-color: #F8F9FA;
+	font-weight: 100;
 }
 
+/* container */
 .bigger-box {
 	width: 50em;
 	margin: 9.375em auto;
@@ -54,5 +56,9 @@ button {
 
 .heading {
 	color: #606668;
-	margin-bottom: -0.9375em;
+	margin-bottom: -0.5375em;
+}
+
+.project {
+	margin-bottom: -0.5375em;
 }
