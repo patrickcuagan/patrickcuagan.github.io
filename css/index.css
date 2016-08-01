@@ -7,7 +7,7 @@ body {
 /* container */
 .bigger-box {
 	width: 50em;
-	margin: 9.375em auto;
+	margin: 7.375em auto;
 	position: relative;
 }
 
@@ -42,24 +42,24 @@ button {
 .line {
 	height: 1px;
 	background-color: black;
-	margin: 12% auto;
+	margin: 6% auto;
 	margin-bottom: -55%;
 	width: 50em;
 }
 
 .information {
 	display: none;
-	margin-top: 57%;
-	border-radius: 0.3125em;
+	margin-top: 55%;
+	padding-top: 0.325em;
 	padding-left: 0.625em;
 	float: bottom;
 }
 
 .heading {
 	color: #800000;
-	margin-bottom: -0.5375em;
+	margin-bottom: -0.1375em;
 }
 
 .project {
-	margin-bottom: -0.5375em;
+	margin-bottom: -0.1375em;
 }
