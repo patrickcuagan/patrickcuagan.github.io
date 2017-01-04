@@ -39,6 +39,11 @@ button {
 	margin-top: 3.125em;
 }
 
+#background-button:hover, #work-button:hover, #project-button:hover {
+	background-color: #484848;
+	color: white;
+}
+
 .line {
 	height: 1px;
 	background-color: black;
@@ -53,6 +58,12 @@ button {
 	padding-top: 0.325em;
 	padding-left: 0.625em;
 	float: bottom;
+}
+
+.information a {
+	text-decoration: none;
+	color: black;
+	font-size: 80%;
 }
 
 .heading {
