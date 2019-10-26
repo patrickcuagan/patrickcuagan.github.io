@@ -99,6 +99,9 @@
                                 </body>
                             </html>
                         `);
+                        setTimeout(function () {
+                            MainWindow.print();
+                        }, 1000);
                         MainWindow.document.close();
                     } else if (bankCheck == 'BDO') {
                         var MainWindow = window.open('', '', 'height=8.5in,width=11in');
@@ -145,6 +148,9 @@
                                 </body>
                             </html>
                         `);
+                        setTimeout(function () {
+                            MainWindow.print();
+                        }, 1000);
                         MainWindow.document.close();
                     } else if (bankCheck == 'CBC') {
                         var MainWindow = window.open('', '', 'height=8.5in,width=11in');
@@ -184,7 +190,7 @@
                                         }   
                                     </style>
                                 </head>
-                                <body onload="window.print();">
+                                <body>
                                     <p class="date">${date}</p>
                                     <p class="issue-to">${payToTheOrderOf}</p>
                                     <p class="amount">${pesos}</p>
@@ -192,6 +198,9 @@
                                 </body>
                             </html>
                         `);
+                        setTimeout(function () {
+                            MainWindow.print();
+                        }, 1000);
                         MainWindow.document.close();
                     }
                 }
